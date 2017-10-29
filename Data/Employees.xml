@@ -1,0 +1,16 @@
+<testdata>
+  <vars Nom="Adolphe" Prenom="THIERS"/>
+  <vars Nom="Edme P." Prenom="MAC-MAHON"/>
+  <vars Nom="Jules" Prenom="GREVY"/>
+  <vars Nom="Sadi" Prenom="CARNOT"/>
+  <vars Nom="Casimir" Prenom="PERIER"/>
+  <vars Nom="Felix" Prenom="FAURE"/>
+  <vars Nom="Emile" Prenom="LOUBET"/>
+  <vars Nom="Armand" Prenom="FALLIERES"/>
+  <vars Nom="Raymond" Prenom="POINCARE"/>
+  <vars Nom="Paul" Prenom="DESCHANEL"/>
+  <vars Nom="Alexandre" Prenom="MILLERAND"/>
+  <vars Nom="Gaston" Prenom="DOUMERGUE"/>
+  <vars Nom="Paul" Prenom="DOUMER"/>
+  <vars Nom="Albert" Prenom="LEBRUN"/>
+</testdata>
