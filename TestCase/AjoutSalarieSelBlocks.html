@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://opensourcevm/" />
+<title>AjoutSalarie</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">AjoutSalarie</td></tr>
+</thead><tbody>
+<tr>
+	<td>forXml</td>
+	<td>file://C:/Formation/Selenium/IDE/Data/Salaries.xml</td>
+	<td></td>
+</tr>
+<!--Click sur le menu PIM-->
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#menu_pim_viewPimModule &gt; b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=menu_pim_addEmployee</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=firstName</td>
+	<td>${Prenom}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=lastName</td>
+	<td>${Nom}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=employeeId</td>
+	<td>${IdSalarie}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=btnSave</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btnSave</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=personal_optGender_${Genre}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=personal_cmbNation</td>
+	<td>label=${Nationalite}</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=personal_cmbMarital</td>
+	<td>value=${StatutMarital}</td>
+</tr>
+<tr>
+	<td>getEval</td>
+	<td>LOG.info(&quot;Genre&nbsp;&nbsp;: ${GenreTexte}&quot;)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>if</td>
+	<td>&quot;Masculin&quot;==GenreTexte</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=personal_optGender_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>else</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=personal_optGender_2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>endIf</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=personal_DOB</td>
+	<td>${NeLe}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=btnSave</td>
+	<td></td>
+</tr>
+<tr>
+	<td>endForXml</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=menu_pim_viewEmployeeList</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ohrmList_chkSelectAll</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btnDelete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=dialogDeleteBtn</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
