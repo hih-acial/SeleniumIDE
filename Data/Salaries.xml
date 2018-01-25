@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testdata>
+	<vars Prenom="Adolphe" Nom="THIERS" IdSalarie="0123" NeLe="1976-07-27" Genre="2" GenreTexte="Masculin" StatutMarital="Single" Nationalite="Français"/>
+	<vars Prenom="Edme P." Nom="MAC-MAHON" IdSalarie="0124" NeLe="1986-11-29" Genre="2" GenreTexte="Femenin" StatutMarital="Single" Nationalite="Français"/>
+	<vars Prenom="Jules" Nom="GREVY" IdSalarie="0125" NeLe="1986-03-28" Genre="1" GenreTexte="Masculin" StatutMarital="Single" Nationalite="Français"/>
+	<vars Prenom="Sadi" Nom="CARNOT" IdSalarie="0126" NeLe="1974-08-15" Genre="1" GenreTexte="Masculin" StatutMarital="Single" Nationalite="Français"/>
+	<vars Prenom="Casimir" Nom="PERIER" IdSalarie="0127" NeLe="1970-02-01" Genre="2" GenreTexte="Femenin" StatutMarital="Single" Nationalite="Français"/>
+	<vars Prenom="Felix" Nom="FAURE" IdSalarie="0128" NeLe="1981-11-27" Genre="2" GenreTexte="Femenin" StatutMarital="Single" Nationalite="Français"/>
+	<vars Prenom="Emile" Nom="LOUBET" IdSalarie="0129" NeLe="1979-11-22" Genre="1" GenreTexte="Masculin" StatutMarital="Single" Nationalite="Français"/>
+	<vars Prenom="Armand" Nom="FALLIERES" IdSalarie="0130" NeLe="1968-07-01" Genre="1" GenreTexte="Masculin" StatutMarital="Single" Nationalite="Français"/>
+	<vars Prenom="Raymond" Nom="POINCARE" IdSalarie="0131" NeLe="1978-01-27" Genre="1" GenreTexte="Masculin" StatutMarital="Single" Nationalite="Français"/>
+	<vars Prenom="Paul" Nom="DESCHANEL" IdSalarie="0132" NeLe="1981-01-02" Genre="1" GenreTexte="Masculin" StatutMarital="Single" Nationalite="Français"/>
+	<vars Prenom="Alexandre" Nom="MILLERAND" IdSalarie="0133" NeLe="1973-03-18" Genre="1" GenreTexte="Masculin" StatutMarital="Single" Nationalite="Français"/>
+	<vars Prenom="Gaston" Nom="DOUMERGUE" IdSalarie="0134" NeLe="1985-08-01" Genre="1" GenreTexte="Masculin" StatutMarital="Single" Nationalite="Français"/>
+	<vars Prenom="Paul" Nom="DOUMER" IdSalarie="0135" NeLe="1984-06-14" Genre="2" GenreTexte="Femenin" StatutMarital="Single" Nationalite="Français"/>
+	<vars Prenom="Albert" Nom="LEBRUN" IdSalarie="0136" NeLe="1976-09-27" Genre="1" GenreTexte="Masculin" StatutMarital="Single" Nationalite="Français"/>
+</testdata>
